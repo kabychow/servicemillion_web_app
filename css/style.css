@@ -1,0 +1,66 @@
+header {
+    background-color: #37474F;
+    color: white;
+    padding: 13px 0;
+}
+
+.items {
+    margin-top: 20px;
+}
+
+.item {
+    border-radius: 5px;
+    border: 1px #6c757d solid;
+    margin-bottom: 20px;
+}
+
+.item .header {
+    background-color: #455A64;
+    color: white;
+    padding: 10px 15px;
+    overflow: auto;
+}
+
+.item.self .header {
+    background-color: #263238;
+}
+
+.item .header .name {
+    font-weight: 500;
+    float: left
+}
+
+.item .header .datetime {
+    float: right;
+}
+
+.item .body {
+    padding: 10px 15px 0 15px;
+    white-space: pre-line;
+}
+
+.comment {
+    overflow: auto;
+}
+
+.comment .input {
+    width: 100%;
+    resize: none;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px #6c757d solid;
+    outline: none;
+}
+
+.comment .submit {
+    background-color: #455A64;
+    color: white;
+    float: right;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: 1px #6c757d solid;
+}
+
+.comment .submit:hover {
+    background-color: #263238;
+}
